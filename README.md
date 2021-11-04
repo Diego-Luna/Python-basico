@@ -28,3 +28,15 @@ math.sin(180) #-0.8011526357338304
 # logaritmos
 math.log(20) #2.995732273553991
 ```
+
+## Variables
+
+Type of variables do not need to be declared
+Los tipos de variables no necesitan ser declarados
+
+a = 28 → int
+b = 1.5 → float
+c = “Hello” → str
+d = True → boolean
+e = None → NoneType
+f = “5” → str (5 y “5” no son lo mismo)

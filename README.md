@@ -40,3 +40,27 @@ c = “Hello” → str
 d = True → boolean
 e = None → NoneType
 f = “5” → str (5 y “5” no son lo mismo)
+
+## Los primitivos: tipos de datos sencillos
+
+### Objetos
+
+Un objeto es una forma de modelar el mundo, en los lenguajes de programación se caracterizan por tener métodos y atributos. En python todo es un objeto.
+
+### Tipos de datos
+
+Podemos encontrar cuatros tipo de datos que vienen definidos por defecto en python, a estos tipos de datos los conocemos como primitivos.
+
+- Integers → Números Enteros
+- Floats → Números de punto flotantes (decimales)
+- Strings → Cadena de caracteres (texto)
+- Boolean → Boolenaos (Verdadero o Falso)
+
+### Notas
+
+Algunos operadores aritméticos pueden funcionar para operar con otros tipos de datos, por ejemplo: podemos sumar strings, lo que concatena el texto o multiplicar un entero por un strings lo que repetirá el string las veces que indique el entero
+
+```python
+"hola" + " " + "mundo" = "hola mundo"
+"hola" * 4 = "holaholaholahola"
+```

@@ -96,3 +96,20 @@ Escribe otro numero: 300
 >>> number1 + number2
 => 400
 ```
+
+## Operadores lógicos y de comparación
+
+**Operadores Lógicos**
+
+- `and`( y ) -> compara dos valores, y si ambos son verdaderos, devuelve True.
+- `or` ( ó ) -> si al comparar dos valores y uno de los dos se cumple, devuelve True. Solo devuelve falso cuando los dos valores no se complen.
+- `not` ( no) -> invierte el valor de una variable, dando el valor contrario al de la variable evaluada.
+
+**Operadores de Comparación**
+
+* `==` ( igual qué ) -> Determina si dos valores son iguales o no.
+* `!=` (distinto de) -> Determina si dos valores son distintos o no. Si los valores son diferentes devuelve True, si son iguales devuelve False.
+* `>` (mayor que) -> Compara dos valores, y determina si es mayor que el otro.
+* `<` (menor que) -> Compara dos valores y determina si es menor que el otro.
+* `>=` (mayor o igual) -> compara dos valores y determinas si es mayor o igual que el otro.
+* `<=` (menor o igual) -> compara dos valores y determinas si es menor o igual que el otro.

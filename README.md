@@ -64,3 +64,35 @@ Algunos operadores aritméticos pueden funcionar para operar con otros tipos de 
 "hola" + " " + "mundo" = "hola mundo"
 "hola" * 4 = "holaholaholahola"
 ```
+
+## Convertir un dato a un tipo diferente
+
+Pasar de un tipo de dato a otro
+
+- `int(var)` variable a entero
+- `float(var)` variable a flotante
+- `str(var)` variable a texto
+- `bool(var)` variable a booleano
+- `abs(var)` variable a valor absoluto
+
+Ejemplo:
+
+```python
+>>> number1 = input("Escribe un número: ")
+Escribe un número: 4
+>>> number2 = input("Escribe otro número: ")
+Escribe un número: 5
+>>> numero1 + numero 2
+=> '45' <== Se concatenan
+```
+
+Solución:
+
+```python
+>>> number1 = int(input("Escribe un numero: "))
+Escribe un numero: 100
+>>> number2 = int(input("Escribe otro numero: "))
+Escribe otro numero: 300
+>>> number1 + number2
+=> 400
+```

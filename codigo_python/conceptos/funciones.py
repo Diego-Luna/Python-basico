@@ -1,16 +1,8 @@
-# def imprimir_mensaje():
-#     print("Mesaje especiall: ")
-#     print("!Estoy aprendiendo a usar funciones¡")
-
-
-# imprimir_mensaje()
-# imprimir_mensaje()
-# imprimir_mensaje()
-
 def conversacion(mensaje):
     print("Hola")
     print("Como estás")
     print("Elegiste la opcion " + mensaje)
+    # return ## retorna un resultado
 
 
 opcion = input("Elige una opcion (1,2,3): ")

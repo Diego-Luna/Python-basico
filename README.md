@@ -107,9 +107,47 @@ Escribe otro numero: 300
 
 **Operadores de Comparación**
 
-* `==` ( igual qué ) -> Determina si dos valores son iguales o no.
-* `!=` (distinto de) -> Determina si dos valores son distintos o no. Si los valores son diferentes devuelve True, si son iguales devuelve False.
-* `>` (mayor que) -> Compara dos valores, y determina si es mayor que el otro.
-* `<` (menor que) -> Compara dos valores y determina si es menor que el otro.
-* `>=` (mayor o igual) -> compara dos valores y determinas si es mayor o igual que el otro.
-* `<=` (menor o igual) -> compara dos valores y determinas si es menor o igual que el otro.
+- `==` ( igual qué ) -> Determina si dos valores son iguales o no.
+- `!=` (distinto de) -> Determina si dos valores son distintos o no. Si los valores son diferentes devuelve True, si son iguales devuelve False.
+- `>` (mayor que) -> Compara dos valores, y determina si es mayor que el otro.
+- `<` (menor que) -> Compara dos valores y determina si es menor que el otro.
+- `>=` (mayor o igual) -> compara dos valores y determinas si es mayor o igual que el otro.
+- `<=` (menor o igual) -> compara dos valores y determinas si es menor o igual que el otro.
+
+## Trabajando con texto: cadenas de caracteres
+
+- .len() = nos ayuda a saber cuantas caracteres tiene mi spring
+- .upper() = Todos las letras pasan a estar mayúsculas.
+- .capitalize() = La primera letra pasa a estar en mayúscula.
+- .lower() = se transforma todo a minúsculas.
+- .strip() = Elimina los espacios basura al inicio como al final.
+- .replace() = remplaza las letras. si nuestra variable nombre contiene Antonio
+- **nombre.replace(“i”, “o” ) ** (En este paso cambiará todas las letras “i” en “o”) así que el resultado sería Antonoo.
+- texto[1] → indica la letra seleccionada
+
+**IMPORTANTE**
+Al hacerlo de la forma anterior solo cambiará la forma en que nos imprime el texto, si queremos cambiar la variable deberemos poner primero el nombre de la variable y la función ej:
+
+```python
+nombre = nombre.upper()
+nombre = nombre.capitalize()
+nombre = nombre.lower()
+nombre = nombre.strip()
+nombre = nombre.replace()
+```
+
+Si ejecutamos:
+
+```python
+dir(variable)
+```
+
+Obtendremos todos los métodos disponibles para ejecutar de un objeto, variable o tipo de dato.
+
+y si ejecutamos:
+
+```python
+help(variable)
+```
+
+Nos entregará la documentación disponible para esa variable.

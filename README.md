@@ -151,3 +151,20 @@ help(variable)
 ```
 
 Nos entregará la documentación disponible para esa variable.
+
+## Trabajando con texto: slices
+
+* Podemos dividir cadenas de texto utilizando slices de la siguiente forma
+
+* Se accede a los índices, en los corchetes colocamos el índice desde donde queremos dividir la cadena colocamos dos puntos y el índice hasta donde queremos dividir.
+
+* También le podemos agregar un tercer valor que es el numero de saltos que va a dar para dividir la cadena es decir si colocamos dos va a ir de dos en dos
+
+```python
+nombre[1:3]
+# Cuando no colocamos el primer indice
+nombre[:3]
+# Quiere decir que empieza a dividir desde el principio de la cadena
+nombre[3:]
+# y es igual para el caso contrario```
+```

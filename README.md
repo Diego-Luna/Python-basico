@@ -154,17 +154,103 @@ Nos entregará la documentación disponible para esa variable.
 
 ## Trabajando con texto: slices
 
-* Podemos dividir cadenas de texto utilizando slices de la siguiente forma
+- Podemos dividir cadenas de texto utilizando slices de la siguiente forma
 
-* Se accede a los índices, en los corchetes colocamos el índice desde donde queremos dividir la cadena colocamos dos puntos y el índice hasta donde queremos dividir.
+- Se accede a los índices, en los corchetes colocamos el índice desde donde queremos dividir la cadena colocamos dos puntos y el índice hasta donde queremos dividir.
 
-* También le podemos agregar un tercer valor que es el numero de saltos que va a dar para dividir la cadena es decir si colocamos dos va a ir de dos en dos
+- También le podemos agregar un tercer valor que es el numero de saltos que va a dar para dividir la cadena es decir si colocamos dos va a ir de dos en dos
 
-```python
+````python
 nombre[1:3]
 # Cuando no colocamos el primer indice
 nombre[:3]
 # Quiere decir que empieza a dividir desde el principio de la cadena
 nombre[3:]
 # y es igual para el caso contrario```
+````
+
+## Almacenar varios valores en una variable: listas
+
+- **Suma**(+) Concatena dos o más
+
+```python
+listas:
+a=[1,2]
+b=[3,4]
+a + b --> [1,2,3,4]
+```
+
+- **Multiplicación** (\*) Repite la
+
+```python
+misma lista:
+a=[1,2]
+a * 2 —> [1,2,1,2]
+```
+
+- **Añadir elemento** al final de la lista:
+
+```python
+a=[1]
+a.append(2)=[1,2]
+```
+
+- **Eliminar elemento** al final de la lista:
+
+```python
+a=[1,2]
+b=a.pop()
+a=[1]
+```
+
+- **Eliminar elemento** dado un indice:
+
+```python
+a=[1,2]
+b=a.pop(1)
+a=[2]
+```
+
+- **Ordenar lista** de menor a mayor, esto modifica la
+
+```python
+lista inicial
+a=[3,8,1]
+a.sort() —> [1,3,8]
+```
+
+- **Ordenar lista** de menor a mayor, esto NO modifica la lista inicial
+
+```python
+a=[3,8,1]
+a.sorted() —> [1,3,8]
+```
+
+- **Eliminar elementos** de lista Elimina el elemento de la lista dado su indice
+
+```python
+a=[1,2,3]
+del a[0] —> a[2,3]
+```
+
+- **Eliminar elementos** de lista Elimina el elemento de la lista dado su valor
+
+```python
+a=[0, 2, 4, 6, 8]
+a.remove(6)
+a=[0, 2, 4, 8]
+```
+
+- **Range** creacion de listas en un rango determinado
+
+```python
+a=(list(range(0,10,2))) -->crea un conteo desde 0 hasta 10 en pasos de 2 en 2.
+a=[0,2,4,6,8]
+```
+
+- **Tamaño lista**len Devuelve el valor del tamaño de la lista:
+
+```python
+a=[0,2,4,6,8]
+len(a)=5
 ```

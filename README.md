@@ -254,3 +254,35 @@ a=[0,2,4,6,8]
 a=[0,2,4,6,8]
 len(a)=5
 ```
+
+## Entendiendo cómo funcionan las tuplas
+
+Las tuplas y las listas son similares pero no iguales. Difieren en su comportamiento:
+
+- Dinámico: Se puede agregar elementos.
+
+```python
+>>> elements = [1,"z", 2.4, False]
+>>> elements.append(True)
+```
+
+- Estático: No se puede agregar elementos.
+
+```python
+>>> elements = (1,"z", 2.4, False)
+```
+
+**Funciones que aplican a tuplas:**
+
+- len
+- max
+- min
+- sum
+- any
+- all
+- sorted
+
+**Métodos que aplican a tuplas:**
+
+- index
+- count
